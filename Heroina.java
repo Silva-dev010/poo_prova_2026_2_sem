@@ -21,7 +21,7 @@ public class Heroina {
         return seda;
     }
     public String toString(){
-        return "Nome: " + nome + " | Mascaras: " + mascaras + "/5 | Sedas: " + seda + "/9";
+        return nome + " | Mascaras: " + mascaras + "/5 | Sedas: " + seda + "/9";
     }
 
     public void atacar(){
