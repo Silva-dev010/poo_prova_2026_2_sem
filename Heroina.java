@@ -34,7 +34,7 @@ public class Heroina {
     }
     public void curar(){
         if(seda==SEDA_MAXIMO){
-            mascaras+=3;
+            mascaras = Math.min(mascaras+3, MASCARAS_MAXIMO);
             seda=SEDA_MINIMO;
             System.out.println(nome + " se amarrou com seda e recuperou mascaras.");
         }
